@@ -12,7 +12,7 @@ void quick_sort(int *array, size_t size)
 {
 	if (size < 2)
 		return;
-	sort(array, size, 0, size -1);
+	sort(array, size, 0, size - 1);
 }
 /**
  * partition - finds the partition for the quicksort
